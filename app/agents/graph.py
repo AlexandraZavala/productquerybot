@@ -19,10 +19,6 @@ class MultiAgentGraph(StateGraph[StateMultiAgent]):
         self.app = self.graph.compile()
     
     def run (self, state: StateMultiAgent) -> StateMultiAgent:
-        if self.vector_store.has_content():
-            print("El vector store tiene contenido.")
-        else:
-            print("El vector store está vacío.")
         return self.app.invoke(state)
 
 

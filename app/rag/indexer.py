@@ -5,11 +5,9 @@ from store import VectorStore
 
 
 def index_documents(file_name: str = "document_corpus.txt", chunk_size: int = 300, chunk_overlap: int = 50) -> List[Document]:
-
-    print("Indexing documents...")
+    """Index documents from a text file into the vector store."""
     with open(file_name, "r") as f:
         text = f.read()
-    print(f"Read {len(text)} characters from {file_name}")
 
     documents = [Document(page_content=text)]
 
@@ -20,10 +18,6 @@ def index_documents(file_name: str = "document_corpus.txt", chunk_size: int = 30
     vector_store.add_documents(split_docs)
 
     vs = VectorStore("vector_store")
-    if vs.has_content():
-        print("El vector store tiene contenido.")
-    else:
-        print("El vector store está vacío.")
 
     return split_docs
 
