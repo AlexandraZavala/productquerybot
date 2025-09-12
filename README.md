@@ -4,6 +4,19 @@
 - Python **3.10+**
 - `pip`
 - **Docker** y **Docker Compose**
+- .env
+
+## ⚙️ Configuración con variables de entorno
+
+El servicio usa variables configurables (en .env), crear un file .env dentro del proyecto:
+
+TOP-K → número de documentos recuperados (ej. 3)
+
+EMBEDDING_MODEL_NAME → modelo de embeddings (ej. sentence-transformers/all-MiniLM-L6-v2)
+
+OPENAI_API_KEY → tu API key de OpenAI 
+
+PERSIST_DIRECTORY  → nombre del directorio que guardar los indices (ej. vector_store)
 
 ## 📦 Instalación local
 
