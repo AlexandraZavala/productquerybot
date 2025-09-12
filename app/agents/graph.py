@@ -1,8 +1,8 @@
 from langgraph.graph import StateGraph, END 
-from .responder import AgentResponder
-from .retriever import AgentRetriever
-from schema import StateMultiAgent 
-from rag.store import VectorStore 
+from app.agents.responder import AgentResponder
+from app.agents.retriever import AgentRetriever
+from app.schema import StateMultiAgent 
+from app.rag.store import VectorStore 
 
 
 class MultiAgentGraph(StateGraph[StateMultiAgent]):

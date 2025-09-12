@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  rag-tests:
+    build: .
+    profiles: ["tests"]
+    env_file:
+      - .env
+    volumes:
+      - ./document_corpus.txt:/app/document_corpus.txt:ro
+      - ./_persist:/data
+    command: ["pytest", "-q", "tests/test_retrieval.py"]
+
+  rag-api:
+    build: .
+    profiles: ["api"]
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./document_corpus.txt:/app/document_corpus.txt:ro
+      - ./_persist:/data
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

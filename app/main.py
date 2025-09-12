@@ -1,8 +1,8 @@
 
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
-from agents.graph import MultiAgentGraph
-from schema import StateMultiAgent, QueryInput
+from app.agents.graph import MultiAgentGraph
+from app.schema import StateMultiAgent, QueryInput
 import uvicorn
 import os
 from dotenv import load_dotenv
