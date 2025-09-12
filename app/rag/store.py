@@ -15,3 +15,11 @@ class VectorStore:
 
     def similarity_search(self, query: str, k: int) -> list[Document]:
         return self.vector_store.similarity_search(query, k=k)
+
+    def has_content(self) -> bool:
+       
+        try:
+            collection = self.vector_store._collection
+            return collection.count() > 0
+        except Exception:
+            return False
