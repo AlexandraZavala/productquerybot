@@ -9,7 +9,7 @@ services:
     volumes:
       - ./document_corpus.txt:/app/document_corpus.txt:ro
       - ./_persist:/data
-    command: ["pytest", "-q", "test/retriever_test.py"]
+    command: ["python", "-m", "pytest", "-q"]
 
   rag-api:
     build: .
