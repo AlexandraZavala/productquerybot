@@ -1,8 +1,12 @@
-from pydantic import BaseMode, Field
+from pydantic import BaseModel, Field
+from typing import TypedDict, List
 
-class QueryRequest(BaseModel):
+class QueryInput(BaseModel):
     user_id: str = Field(..., description="The ID of the user making the request")
     query: str = Field(..., description="The user's query string")
 
-class QueryResponse(BaseModel):
-    response: str = Field(..., description="The response to the user's query")
+class StateMultiAgent(TypedDict):
+    user_id: str
+    query: str
+    docs: List[str]
+    answer: str
