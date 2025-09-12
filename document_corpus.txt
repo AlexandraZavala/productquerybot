@@ -1,0 +1,61 @@
+=== PRODUCTO ===
+Nombre: ZenBook 14 Pro
+Pantalla: OLED 14" 2880×1800
+GPU: RTX 4050
+Batería: 12 horas
+Mejor para: Creadores que necesitan CUDA y pantalla de alta calidad.
+
+=== PRODUCTO ===
+Nombre: Nova X
+Pantalla: OLED 6.1"
+Cámara: 50 MP
+Batería: 4300 mAh
+Mejor para: Usuarios que quieren un flagship compacto bajo $700.
+
+=== PRODUCTO ===
+Nombre: AudioFlow ANC 2
+Tipo: Over-ear
+Cancelación: Híbrida ANC
+Batería: 45 horas
+Mejor para: Viajeros y commuters que buscan silencio y larga autonomía.
+
+=== PRODUCTO ===
+Nombre: BrewPro 700
+Tipo: Cafetera espresso semi-automática
+Bomba: 15-bar italiana
+Molinillo: Cónico integrado, 30 ajustes
+Mejor para: Baristas caseros que quieren dominar cappuccinos y lattes.
+
+=== PRODUCTO ===
+Nombre: RunLite Tempo 3
+Peso: 225 g
+Drop: 8 mm
+Espuma: Nitro-PEBA
+Mejor para: Entrenamientos diarios y medias maratones.
+
+=== PRODUCTO ===
+Nombre: Pulse 3
+Pantalla: AMOLED 1.4"
+Sensores: ECG, SpO2, temperatura
+Batería: 3 días
+Mejor para: Usuarios interesados en salud y sueño.
+
+=== PRODUCTO ===
+Nombre: Clarity 27
+Pantalla: IPS 27" QHD 165 Hz
+Brillo: 350 nits
+Puertos: HDMI 2.0, DP 1.4, USB-C 65W
+Mejor para: Jugadores competitivos y oficina con setup de un solo cable.
+
+=== PRODUCTO ===
+Nombre: EcoBottle Max
+Capacidad: 1 litro
+Material: Acero inoxidable reciclado
+Aislamiento: 24h frío, 12h calor
+Mejor para: Personas eco-conscientes que buscan hidratación todo el día.
+
+=== PRODUCTO ===
+Nombre: SmartHome Hub Mini
+Compatibilidad: Zigbee, Wi-Fi, Bluetooth
+Funciones: Control de luces, cámaras, termostato
+Mejor para: Usuarios que quieren domóti
